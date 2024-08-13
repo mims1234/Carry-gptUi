@@ -1,0 +1,37 @@
+:root {
+    --neon-blue: #00ffff;
+    --neon-pink: #ff00ff;
+    --neon-green: #00ff00;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container, .side-menu, #chat-container, .chat-container {
+    border: 1px solid var(--neon-blue);
+    box-shadow: 0 0 10px var(--neon-blue);
+}
+
+#user-input, .user-input {
+    border-color: var(--neon-pink);
+}
+
+#send-button, .send-button {
+    background-color: var(--neon-green);
+    color: #000;
+    text-shadow: 0 0 5px var(--neon-green);
+}
+
+select, input[type="range"] {
+    border-color: var(--neon-pink);
+}
+
+button {
+    background-color: var(--neon-blue);
+    color: #000;
+    text-shadow: 0 0 5px var(--neon-blue);
+}
+
+/* Add more neon-themed styles as needed */
